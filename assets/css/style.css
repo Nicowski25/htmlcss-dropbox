@@ -34,21 +34,24 @@
 
 .debug .container {
     width: 70%;
-    height: 300px;
+    height: 100%;
     margin: auto;
     background-color: darkolivegreen;
+    margin-bottom: 1rem;
 }
 
-.debug .imagine {
-    height: 250px;
-    width: 250px;
+.debug .image {
+    height: 100px;
+    width: 100px;
     background-color: grey;
+    flex: auto;
 }
  
 .debug .card {
     background-color: greenyellow;
     height: 150px;
 }
+
 /* #endregion debug */
 
 #app-header {
@@ -65,4 +68,26 @@
 
 .card {
     border: 3px solid black;
+}
+
+.design {
+    flex: 1;
+}
+
+.big-partner {
+    flex: 3;
+}
+
+#app-footer {
+    color: white;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 1rem;
+}
+
+#app-footer h4 {
+    margin-bottom: 1rem;
 }

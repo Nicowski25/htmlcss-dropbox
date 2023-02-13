@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --tb-head: #b4d0e7;
+    --tb-button: #0061ff;
+
+}
+.debug #app-header {
+    height: 50px;
+}
+
+.debug .container {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    background-color: darkolivegreen;
+}
+
+.debug .imagine {
+    height: 250px;
+    width: 250px;
+    background-color: grey;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#app-header {
+    background-color: aqua;
+    justify-content: space-between;
+}
+
+.d-none {
+    list-style: none;
+}

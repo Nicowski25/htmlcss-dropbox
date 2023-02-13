@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
 </head>
 <body class="debug">
 <!-- #region header -->
@@ -13,7 +15,7 @@
 
         <div id="l-header">
             <ul class="ls-none d-flex">
-                <li>logo</li>
+                <li><img src="./assets/img/logo-small.png" alt=""></li>
                 <li>Perchè Dropbox</li>
                 <li>Funzioni</li>
                 <li>Piani e Prezzi</li>
@@ -24,8 +26,8 @@
             <ul class="ls-none d-flex">
                 <li>supporto</li>
                 <li>Contatta l'ufficio vendite</li>
-                <button>Accedi</button>
-                <button>Inizia</button>
+                <li>Accedi</li>
+                <button class="btn">Inizia</button>
             </ul>
         </div>
 
@@ -35,18 +37,21 @@
     <main>
 
         <section id="intro">
-            <div class="container">
+            <div id="containerintro">
                 <h1 id="title">
                     Tutto ciò che ti serve per il lavoro in un unico posto
                 </h1>
                 <div class="d-flex">
-                    <div>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae necessitatibus vitae qui tempora, odit impedit laudantium veritatis, quaerat veniam enim aut aliquid nesciunt iste minima repellat sunt quae expedita.</p>
-                        <button>Inizia la prova</button>
-                        <p>Annulla in qualsiasi momento</p>
+                    <div class="d-30">
+                        <p class="txtsmall"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae necessitatibus vitae qui tempora, odit impedit laudantium veritatis, quaerat veniam enim aut aliquid nesciunt iste minima repellat sunt quae expedita.</p>
+
+                        <button class="btn mtb2">Inizia la tua prova gratuita</button>
+
+                        <br><p class="txtsmall">Annulla in qualsiasi momento</p>
+
                     </div>
-                    <div>
-                        <img src="" alt="" class="imagine">
+                    <div class="d-70">
+                        <img src="./assets/img/jumbo.png" alt="" class="jumboimage">
                     </div>
                 </div>
             </div>

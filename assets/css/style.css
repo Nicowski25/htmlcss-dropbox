@@ -4,11 +4,30 @@
     box-sizing: border-box;
 }
 
+/* #region utilities */
+
 :root {
     --tb-head: #b4d0e7;
     --tb-button: #0061ff;
 
 }
+
+.d-flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+/* #endregion utilities */
+
+/* #region debug */
+
 .debug #app-header {
     height: 50px;
 }
@@ -25,16 +44,25 @@
     width: 250px;
     background-color: grey;
 }
-
-.d-flex {
-    display: flex;
+ 
+.debug .card {
+    background-color: greenyellow;
+    height: 150px;
 }
+/* #endregion debug */
 
 #app-header {
     background-color: aqua;
     justify-content: space-between;
 }
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
 
-.d-none {
-    list-style: none;
+.col-12 {
+    width: calc(100% / 12 * 12);
+}
+
+.card {
+    border: 3px solid black;
 }

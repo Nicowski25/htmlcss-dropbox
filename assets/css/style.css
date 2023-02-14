@@ -25,12 +25,12 @@
     font-size: small;
 }
 
-.txtbigger {
-    font-size: 2rem;
-}
-
 .txtbig {
     font-size: 1.5rem;
+}
+
+.txtbigger {
+    font-size: 2rem;
 }
 
 .lighttext {

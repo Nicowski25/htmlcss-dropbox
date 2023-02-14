@@ -12,7 +12,51 @@
     --tb-button: #0061ff;
     --tb-white: white;
     --tb-grey: rgb(94, 94, 94);
+    --tb-design: #a2d39b;
+    --tb-asu: #61082b;
+    --tb-uf: #0093ce;
+    --tb-topps: #ff1c1c;
+    --tb-bicycle: #d5001f;
+    --tb-hearst: #b4d0e7;
+    --tb-lonely: #0d2481;
+    --tb-clearchannel: #ffd830;
 }
+
+/* #region background */
+
+.designit {
+    background-color: var(--tb-design);
+}
+
+.asu {
+    background-color: var(--tb-asu);
+}
+
+.uf {
+    background-color: var(--tb-uf);
+}
+
+.topps {
+    background-color: var(--tb-topps);
+}
+
+.bicycle {
+    background-color: var(--tb-bicycle);
+}
+
+.hearst {
+    background-color: var(--tb-hearst);
+}
+
+.lonely {
+    background-color: var(--tb-lonely);
+}
+
+.clearchannel {
+    background-color: var(--tb-clearchannel);
+}
+
+/* #endregion background */
 
 .w-30 {
     width: 30%;
@@ -195,8 +239,8 @@
 }
 
 .image {
-    width: 100%;
-    flex: auto;
+    width: 50%;
+    height: 50%;
 }
 
 .card {
@@ -209,10 +253,11 @@
 }
 
 .design {
-    flex: 1;
+    flex: 2;
 }
 
 .big-partner {
+    padding: 2rem;
     flex: 3;
 }
 

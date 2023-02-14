@@ -11,13 +11,22 @@
     --tb-head: #b4d0e7;
     --tb-button: #0061ff;
     --tb-white: white;
+    --tb-grey: rgb(94, 94, 94);
 }
 
-.d-30 {
+.w-30 {
     width: 30%;
 }
 
-.d-70 {
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
     width: 70%;
 }
 
@@ -44,6 +53,14 @@
     padding: 10px;
 }
 
+.btn-grey {
+    background-color: var(--tb-white);
+    color: var(--tb-grey);
+    border-color: var(--tb-grey);
+    border: none;
+    padding: 10px;
+}
+
 .mtb2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -58,12 +75,12 @@
     padding: 10px;
 }
 
-.m-1 {
-    margin: 10px;
+.pd-2 {
+    padding: 20px;
 }
 
-.w-30 {
-    width: 30%;
+.m-1 {
+    margin: 10px;
 }
 
 .fa-check {
@@ -163,6 +180,10 @@
 .plan-type {
     text-align: center;
     border-bottom: 2px solid gray;
+}
+
+#enterprise {
+    justify-content: space-between;
 }
 
 .card {

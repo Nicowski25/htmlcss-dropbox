@@ -149,7 +149,7 @@
     gap: 1rem;
 }
 
-.business {
+.justify-between {
     justify-content: space-between;
 }
 
@@ -164,6 +164,10 @@
 
 .col-12 {
     width: calc(100% / 12 * 12);
+}
+
+.align-center {
+    align-items: center;
 }
 
 /* #endregion utilities */
@@ -260,6 +264,16 @@
     padding: 2rem;
     flex: 3;
 }
+
+#freetrial {
+    background-color: var(--tb-hearst);
+}
+
+#faq {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
 
 /* #endregion main */
 

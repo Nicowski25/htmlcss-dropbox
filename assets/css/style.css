@@ -25,6 +25,18 @@
     font-size: small;
 }
 
+.txtbigger {
+    font-size: 2rem;
+}
+
+.txtbig {
+    font-size: 1.5rem;
+}
+
+.lighttext {
+    color: darkgray;
+}
+
 .btn {
     background-color: var(--tb-button);
     color: var(--tb-white);
@@ -35,6 +47,27 @@
 .mtb2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.ptb5 {
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+
+.pd-1 {
+    padding: 10px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.fa-check {
+    color: var(--tb-button);
 }
 
 .d-flex {
@@ -50,7 +83,7 @@
 }
 
 .col-4 {
-    width: calc(100% / 12 * 4);
+    width: calc(96% / 12 * 4);
 }
 
 .col-12 {
@@ -79,11 +112,6 @@
     background-color: grey;
     flex: auto;
 }
- 
-.debug .card {
-    background-color: greenyellow;
-    height: 150px;
-}
 
 /* #endregion debug */
 
@@ -96,7 +124,7 @@
     font-size: small;
 }
 
-#app-header li, ul {
+#app-header ul, li {
     padding: 0.5rem;
 }
 
@@ -107,6 +135,7 @@
 /* #endregion header */
 
 /* #region main */
+
 #intro {
     background-color: var(--tb-head);
 }
@@ -114,6 +143,7 @@
 #containerintro {
     width: 80%;
     margin: auto;
+    margin-bottom: 2rem;
 }
 
 #title {
@@ -126,8 +156,18 @@
     width: 100%;
 }
 
+.plans {
+    gap: 1rem;
+}
+
+.plan-type {
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+
 .card {
-    border: 3px solid black;
+    background-color: white;
+    border: 2px solid gray;
 }
 
 .design {
@@ -139,6 +179,7 @@
 }
 
 /* #endregion main */
+
 #app-footer {
     color: white;
     width: 100%;

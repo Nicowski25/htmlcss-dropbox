@@ -7,6 +7,7 @@
     <title>Dropbox</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
 </head>
 <body class="debug">
@@ -58,15 +59,48 @@
         </section>
 
         <section id="business-plans">
-            <div class="container big">
-                <h2>Trova il piano business che fa per te</h2>
-                <input type="radio" value="Fatturazione mensile">
-                <input type="radio" value="Fatturazione annuale">
+            <div class="container">
+                <h2 class="txtbigger">Trova il piano business che fa per te</h2>
+                <input type="radio" value="Fatturazione mensile" class="mtb2">Fatturazione mensile
+                <input type="radio" value="Fatturazione annuale">Fatturazione annuale
 
                 <div class="plans d-flex row">
-                    <div class="col-4 card"></div>
-                    <div class="col-4 card"></div>
-                    <div class="col-4 card"></div>
+
+                    <div class="col-4 card">
+                        <p class="plan-type ptb5"><i class="fa-solid fa-user"></i> Singolo</p>
+                        <div class="pd-1">
+                            <h3 class="txtbig">Professional</h3>
+                        <strong>€ 12.00</strong>
+                        <p class="lighttext">/mese</p>
+
+                        <ul class="ls-none">
+                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i> 5 Tb di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul><br>
+
+                        <button class="btn m-1">Prova gratis per 30 giorni</button>
+                        <p>oppure <a href="">acquista ora</a></p>
+                        <br>
+
+                        <hr class="w-30 m-1 lighttext">
+                        
+                        <h4>Punti salienti del piano</h4>
+                        <ul class="ls-none">
+                            <li><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
+                            <li><i class="fa-solid fa-check"></i> Cartelle online su dispositivi mobili</li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-4 card">
+                        <i class="fa-solid fa-users"></i> Team
+                        <h3 class="txtbig">Advanced</h3>
+                    </div>
+                    <div class="col-4 card">
+                        <i class="fa-solid fa-building"></i> Azienda
+                        <h3 class="txtbig">Enterprise</h3>
+                    </div>
                     <div class="col-12 card"></div>
                 </div>
             </div>
@@ -174,7 +208,7 @@
 <!-- #endregion main -->
 <!-- #region footer -->
     <footer id="app-footer" class="d-flex">
-        <div>
+        <div class="item">
             <h4>Dropbox</h4>
             <ul class="ls-none">
                 <li>Applicazione desktop</li>
@@ -184,8 +218,8 @@
                 <li>Funzioni</li>
             </ul>
         </div>
-        <div>
-            <h4>Prodotti</h4>
+        <div class="item">
+        <h4>Prodotti</h4>
             <ul class="ls-none">
                 <li>Applicazione desktop</li>
                 <li>Perchè Dropbox</li>
@@ -194,7 +228,7 @@
                 <li>Funzioni</li>
             </ul>
         </div>
-        <div>
+        <div class="item">
             <h4>Azienda</h4>
             <ul class="ls-none">
                 <li>Applicazione desktop</li>
@@ -204,7 +238,7 @@
                 <li>Funzioni</li>
             </ul>
         </div>
-        <div>
+        <div class="item">
             <h4>Supporto</h4>
             <ul class="ls-none">
                 <li>Applicazione desktop</li>
@@ -214,7 +248,7 @@
                 <li>Funzioni</li>
             </ul>
         </div>
-        <div>
+        <div class="item">
             <h4>Community</h4>
             <ul class="ls-none">
                 <li>Applicazione desktop</li>

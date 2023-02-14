@@ -30,19 +30,19 @@
     width: 70%;
 }
 
-.txtsmall {
+.text-small {
     font-size: small;
 }
 
-.txtbig {
+.text-big {
     font-size: 1.5rem;
 }
 
-.txtbigger {
+.text-bigger {
     font-size: 2rem;
 }
 
-.lighttext {
+.light-text {
     color: darkgray;
 }
 
@@ -61,17 +61,17 @@
     padding: 10px;
 }
 
-.mtb2 {
+.mtb-2 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.ptb5 {
+.ptb-5 {
     padding-top: 5px;
     padding-bottom: 5px ;
 }
 
-.ptb1 {
+.ptb-1 {
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -102,6 +102,7 @@
 
 .business-plans{
     justify-content: space-between;
+    gap: 1rem;
 }
 
 .business {
@@ -113,7 +114,8 @@
 }
 
 .col-4 {
-    width: calc(100% / 12 * 4);
+    width: 30%;
+    flex-grow: 1;
 }
 
 .col-12 {
@@ -200,6 +202,10 @@
 .card {
     background-color: white;
     border: 2px solid var(--tb-grey);
+}
+
+#teams {
+    width: 100%;
 }
 
 .design {

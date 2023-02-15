@@ -10,12 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
 </head>
-<body class="debug">
+<body class="">
 <!-- #region header -->
     <header id="app-header" class="d-flex">
 
         <div id="l-header">
-            <ul class="ls-none d-flex">
+            <ul class="ls-none d-flex full">
                 <li><img src="./assets/img/logo-small.png" alt=""></li>
                 <li>Perchè Dropbox</li>
                 <li>Funzioni</li>
@@ -24,8 +24,8 @@
         </div>
 
         <div id="r-header">
-            <ul class="ls-none d-flex">
-                <li>supporto</li>
+            <ul class="ls-none d-flex full">
+                <li>Supporto</li>
                 <li>Contatta l'ufficio vendite</li>
                 <li>Accedi</li>
                 <button class="btn">Inizia</button>
@@ -40,16 +40,17 @@
         <section id="intro">
             <div id="containerintro">
                 <h1 id="title">
-                    Tutto ciò che ti serve per il lavoro in un unico posto
+                    <strong>Tutto ciò che ti serve per il lavoro, in un unico posto</strong>
                 </h1>
                 <div class="d-flex">
                     <div class="w-30">
                         <p class="text-small"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae recusandae necessitatibus vitae qui tempora, odit impedit laudantium veritatis, quaerat veniam enim aut aliquid nesciunt iste minima repellat sunt quae expedita.</p>
 
-                        <button class="btn mtb-2">Inizia la tua prova gratuita</button>
+                        <button class="btn my-2">Inizia la tua prova gratuita</button>
 
-                        <br><p class="text-small">Annulla in qualsiasi momento</p>
+                        <br><p class="text-small">Annulla in qualsiasi momento</p><br><br><br>
 
+                        <a href="#app-footer"><i class="fa-solid fa-2x fa-arrow-down black"></i></a>
                     </div>
                     <div class="w-70">
                         <img src="./assets/img/jumbo.png" alt="" class="jumboimage">
@@ -58,21 +59,21 @@
             </div>
         </section>
 <!-- business plans -->
-        <section>
-            <div class="container text-small">
+        <section class="my-2">
+            <div class="container text-small my-2">
 
                 <h2 class="text-bigger">Trova il piano business che fa per te</h2>
-                <input type="radio" value="Fatturazione mensile" class="mtb-2">Fatturazione mensile
+                <input type="radio" value="Fatturazione mensile" class="my-2">Fatturazione mensile
                 <input type="radio" value="Fatturazione annuale">Fatturazione annuale
 
                 <div class="plans d-flex row business-plans">
                     <div class="col-4 card">
-                        <p class="plan-type ptb-5"><i class="fa-solid fa-user"></i> Singolo</p>
+                        <p class="plan-type py-5"><i class="fa-solid fa-user"></i> Singolo</p>
                         <div class="pd-1">
                             <h3 class="text-big">Professional</h3>
                             <br>
                             <strong>€ 12.00</strong>
-                            <p class="light-text">/mese</p>
+                            <p class="light-text py-5">/mese</p>
                             <br>
                             <ul class="ls-none">
                                 <li><i class="fa-solid fa-user"></i> 1 utente</li>
@@ -87,7 +88,7 @@
                             <hr class="w-30 m-1 light-text">
                             <br>
 
-                            <h4 class="ptb-5">Punti salienti del piano</h4>
+                            <h4 class="py-5">Punti salienti del piano</h4>
                             <ul class="ls-none">
                                 <li><i class="fa-solid fa-check"></i> Invia file fino a 100GB con Dropbox Transfert</li>
                                 <li><i class="fa-solid fa-check"></i> Cartelle offile su dispositivi mobili</li>
@@ -96,12 +97,12 @@
                     </div>
 
                     <div class="col-4 card">
-                        <p class="plan-type ptb-5"><i class="fa-solid fa-users"></i> Team</p>
+                        <p class="plan-type py-5"><i class="fa-solid fa-users"></i> Team</p>
                         <div class="pd-1">
                             <h3 class="text-big">Advanced</h3>
                             <br>
                             <strong>€ 18.00</strong>
-                            <p class="light-text">/utente/mese</p>
+                            <p class="light-text py-5">/utente/mese</p>
                             <br>
 
                             <ul class="ls-none">
@@ -117,7 +118,7 @@
                             <hr class="w-30 m-1 light-text">
                             <br>
 
-                            <h4 class="ptb-5">Punti salienti del piano</h4>
+                            <h4 class="py-5">Punti salienti del piano</h4>
                             <ul class="ls-none">
                                 <li><i class="fa-solid fa-check"></i> Nessun limite di spazio per i file</li>
                                 <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
@@ -129,12 +130,12 @@
                     </div>
 
                     <div class="col-4 card">
-                        <p class="plan-type ptb-5"><i class="fa-solid fa-building"></i> Azienda</p>
+                        <p class="plan-type py-5"><i class="fa-solid fa-building"></i> Azienda</p>
                         <div class="pd-1">
                             <h3 class="text-big">Enterprise</h3>
                             <br>
                             <strong>€ 18.00</strong>
-                            <p class="light-text">-</p>
+                            <p class="light-text py-5">-</p>
                             <br>
 
                             <ul class="ls-none">
@@ -150,7 +151,7 @@
                             <hr class="w-30 m-1 light-text">
                             <br>
 
-                            <h4 class="ptb-5">Punti salienti del piano</h4>
+                            <h4 class="py-5">Punti salienti del piano</h4>
                             <ul class="ls-none">
                                 <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
                                 <li><i class="fa-solid fa-check"></i> Servizio assistenza 24/h</li>
@@ -159,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col-12 card">
-                        <p class="plan-type ptb-5"><i class="fa-solid fa-building"></i> Team</p>
+                        <p class="plan-type py-5"><i class="fa-solid fa-building"></i> Team</p>
                         <div id="enterprise" class="pd-1 d-flex">
                             <div>
                                 <h3 class="text-big">Enterprise</h3>
@@ -177,56 +178,56 @@
             </div>
         </section>
 <!-- partner -->
-        <section>
-            <div class="container d-flex">
+        <section class="my-2">
+            <div class="container d-flex py-4">
                 <img src="./assets/img/partner.png" alt="" class="w-60">
                 <div class="w-40 pd-2">
                     <h3>Entra in contatto con un partner Dropbox</h3>
-                    <p class="mtb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta autem alias officia corporis aspernatur nemo voluptate aliquid reiciendis vitae repudiandae! Nostrum deleniti laudantium error ipsam iure necessitatibus, sint incidunt magni?</p>
+                    <p class="my-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta autem alias officia corporis aspernatur nemo voluptate aliquid reiciendis vitae repudiandae! Nostrum deleniti laudantium error ipsam iure necessitatibus, sint incidunt magni?</p>
                     <button class="btn-grey">Trova un partner</button>
                 </div>
             </div>
         </section>
 <!-- business -->
-        <section>
+        <section class="my-2">
             <div class="container">
-                <h2 class="text-bigger">Esegui più operazioni con Dropbox Business</h2>
-                <div class="d-flex row justify-between">
+                <h2 class="text-bigger my-2">Esegui più operazioni con Dropbox Business</h2>
+                <div class="d-flex row justify-between gap2">
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-switching-tools.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-switching-tools.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-send-files-it.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-send-files-it.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-coordinate-it.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-coordinate-it.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-integrations-it.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-integrations-it.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-multi-device.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-multi-device.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>
                     <div class="col-4">
-                        <img src="./assets/img/business-feature-security.png" alt="" class="image">
-                        <h3 class="ptb-1">Passa di meno da uno strumento all'altro</h3>
+                        <img src="./assets/img/business-feature-security.png" alt="" class="feature">
+                        <h3 class="py-1">Passa di meno da uno strumento all'altro</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab recusandae explicabo adipisci tenetur dolore, et consectetur mollitia eum reprehenderit, repudiandae obcaecati numquam similique ipsam quas?</p>
                     </div>                    
                 </div>
             </div>
         </section>
 <!-- utilizators -->
-        <section id="utilizators">
+        <section id="utilizators" class="py-4">
             <div class="container">
                 <h2 class="text-bigger">Più di 500.000 team utilizzano<br>Dropbox Business</h2>
                 <br>
@@ -264,31 +265,31 @@
         </section>
 <!-- freetrial -->
         <section id="freetrial">
-            <div class="container justify-between d-flex mtb2">
-                <h2 class="text-big mtb-2">Porta Dropbox Business <br>nella tua azienda.</h2>
-                <div class="align-center mtb-2">
-                    <button class="btn">Inizia la tua prova gratuita</button>
+            <div class="container justify-between d-flex">
+                <h2 class="text-big py-4 brick">Porta Dropbox Business <br>nella tua azienda.</h2>
+                <div class="align-center py-4">
+                    <button class="btn-white">Inizia la tua prova gratuita</button>
                 </div>
             </div>
         </section>
 <!-- faqs -->
         <section id="faq">
             <div class="container">
-                <h2 class="text-big ptb-1">Domande Frequenti</h2> 
+                <h2 class="text-big py-2">Domande Frequenti</h2> 
                 <hr>
-                <div class="d-flex justify-between ptb-1">
+                <div class="d-flex justify-between py-1">
                     <p>Qual'è la differenza tra Dropbox Standard e Dropbox Business Advanced?</p>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down pr-2"></i>
                 </div>
                 <hr>
-                <div class="d-flex justify-between ptb-1">
+                <div class="d-flex justify-between py-1">
                     <p>Qual'è la differenza tra Dropbox Standard e Dropbox Business Advanced?</p>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down pr-2"></i>
                 </div>
                 <hr>
-                <div class="d-flex justify-between ptb-1">
+                <div class="d-flex justify-between py-1">
                     <p>Qual'è la differenza tra Dropbox Standard e Dropbox Business Advanced?</p>
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-chevron-down pr-2"></i>
                 </div>
                 <hr>
             </div>
@@ -300,7 +301,7 @@
         <div id="container-footer" class="d-flex">
             <div class="item">
                 <h4>Dropbox</h4>
-                <ul class="ls-none">
+                <ul class="ls-none text-small">
                     <li>Applicazione desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -310,7 +311,7 @@
             </div>
             <div class="item">
             <h4>Prodotti</h4>
-                <ul class="ls-none">
+                <ul class="ls-none text-small">
                     <li>Applicazione desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -320,7 +321,7 @@
             </div>
             <div class="item">
                 <h4>Azienda</h4>
-                <ul class="ls-none">
+                <ul class="ls-none text-small">
                     <li>Applicazione desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -330,7 +331,7 @@
             </div>
             <div class="item">
                 <h4>Supporto</h4>
-                <ul class="ls-none">
+                <ul class="ls-none text-small">
                     <li>Applicazione desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -340,7 +341,7 @@
             </div>
             <div class="item">
                 <h4>Community</h4>
-                <ul class="ls-none">
+                <ul class="ls-none text-small">
                     <li>Applicazione desktop</li>
                     <li>Perchè Dropbox</li>
                     <li>Piani</li>
@@ -349,7 +350,7 @@
                 </ul>
             </div>
         </div>
-        <div id="bot-footer">
+        <div id="bot-footer" class="py-2">
             <hr class="w-30">
             <br>
             <p><i class="fa-solid fa-earth-americas"></i>  Italiano  <i class="fa-solid fa-caret-up"></i></p>
